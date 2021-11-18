@@ -136,26 +136,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   return true;
 };
 
-/*ko_make_basic skel:
- ko_make_basic(modifiers, key, replacement)
-*/
-
-/* const key_override_t mypc_key_override  = ko_make_basic(MOD_MASK_CTRL, KC_F1, KC_MYCM); */
-/* const key_override_t bfav_key_override  = ko_make_basic(MOD_MASK_CTRL, KC_F2, KC_WFAV); */
-/* const key_override_t calc_key_override  = ko_make_basic(MOD_MASK_CTRL, KC_F3, KC_CALC); */
-/* const key_override_t layer_key_override = ko_make_basic(MOD_MASK_CTRL, KC_F4, MO(_UTIL)); */
-
-
-/* // Define all key overrides to be used below */
-/* const key_override_t **key_overrides = (const key_override_t *[]){ */
-/*   &mypc_key_override, */
-/*   &bfav_key_override, */
-/*   &calc_key_override, */
-/*   &_key_override, */
-/*   NULL // Null terminate the array of overrides */
-/* }; */
-
-  
 // clang-format on
 
 #ifdef ENCODER_ENABLE
